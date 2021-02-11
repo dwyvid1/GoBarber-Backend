@@ -6,7 +6,7 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository';
 
 interface Request {
     date: Date;
-    provider_id: string;
+    provider: string;
 }
 
 class CreateAppointmentService {
@@ -35,5 +35,4 @@ class CreateAppointmentService {
         return appointment;
     }
 }
-
 export default CreateAppointmentService;

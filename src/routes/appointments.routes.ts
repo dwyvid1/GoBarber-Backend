@@ -1,5 +1,3 @@
-import 'reflect-metadata';
-
 import { Router } from 'express';
 import { getCustomRepository } from 'typeorm';
 import { parseISO } from 'date-fns';
@@ -34,5 +32,4 @@ appointmentsRouter.post('/', async (request, response) => {
         return response.status(400).json({ error: err.message });
     }
 });
-
 export default appointmentsRouter;
