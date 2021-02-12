@@ -20,7 +20,7 @@ export default class CreateAppointments1611341021082
                         isNullable: false,
                     },
                     {
-                        name: 'date',
+                        name: 'data',
                         type: 'timestamp with time zone',
                         isNullable: false,
                     },
